@@ -3,3 +3,7 @@
 1.[主持人大赛首页](https://haha214.github.io/MobileWeb/presenter/home.html)
 
 <img src='pic/presenterH.png' width='300'>
+
+2.[主持人大赛选手介绍](https://haha214.github.io/MobileWeb/presenter/detail.html)
+
+<img src='pic/presenterD.png' width='300'>
