@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+}
+:before,.:after{
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Microsoft YaHei',sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+input,button{
+    outline: none;
+    border:none; 
+    font-family: 'Microsoft YaHei',sans-serif; 
+}
+.clearfix:before,.clearfix:after,.container:before,.container:after{
+    display:table;
+    content: "";
+}
+.clearfix:after{
+    clear:both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fL{
+    float:left;
+}
+.fR{
+    float:right;
+}
+.container{
+    max-width: 750px;
+    margin:0 auto;
+    color:#fff;
+    background-color: #da195d;
+    background-size: 100% 100%;
+    min-height: 100%;
+    text-align: center;
+}
+[data-dpr="2"] .container{
+    max-width: 1500px;
+}
+[data-dpr="3"] .container{
+    max-width: 2250px;
+}
+.header{
+    position: relative;
+}
+.header h1{
+    height:1.24rem;
+    line-height: 1.24rem;
+    font-size: 16px;
+}
+[data-dpr="2"] .header h1{
+    font-size: 32px;
+}
+[data-dpr="3"] .header h1{
+    font-size: 48px;
+}
+.header button{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:1.24rem;
+    background-color: inherit;
+    background-image: url(../images/arrows_03.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.video{
+    height:6.666667rem;
+    border:0.12rem solid #000;
+}
+.cpInfo{
+    margin:0 0.533333rem;
+    text-align: left;
+}
+.person{
+    font-size: 21px;
+    line-height: 0.933333rem;
+    vertical-align: middle;
+}
+[data-dpr="2"] .person{
+    font-size: 42px;
+}
+[data-dpr="3"] .person{
+    font-size: 63px;
+}
+.age{
+    font-size: 16px;
+    line-height: 0.733333rem;
+    margin-left: 0.6rem;
+}
+[data-dpr="2"] .age{
+    font-size: 32px;
+}
+[data-dpr="3"] .age{
+    font-size: 48px;
+}
+.school{
+    font-size: 14px;
+    line-height: 0.746667rem;
+}
+[data-dpr="2"] .school{
+    font-size: 28px;
+}
+[data-dpr="3"] .school{
+    font-size: 42px;
+}
+.voteBtn{
+    margin:0.266667rem 0.866667rem 0.346667rem;
+}
+.voteBtn button{
+    width:100%;
+    background-color: #ffaac6;
+    color:#fff;
+    font-size: 16px;
+    line-height: 1.04rem;
+    height:1.04rem;
+    border-radius: 5px;
+}
+[data-dpr="2"] .voteBtn button{
+    border-radius: 10px;
+    font-size: 33px;
+}
+[data-dpr="3"] .voteBtn button{
+    border-radius: 15px;
+    font-size: 48px;
+}
+.rule h2{
+     line-height: 0.746667rem;
+     font-size: 13px;
+     margin-bottom: 0.4rem;
+ }
+[data-dpr="2"] .rule h2{
+    font-size: 26px;
+}
+[data-dpr="3"] .rule h2{
+    font-size: 39px;
+}
+.rule  hr{
+    display:inline-block;
+    width:2.933333rem;
+    margin:0 0.266667rem;
+    vertical-align: middle;
+}
+.rule p{
+    font-size: 12px;
+    line-height: 0.746667rem;
+}
+[data-dpr="2"] .rule p{
+    font-size: 24px;
+}
+[data-dpr="3"] .rule p{
+    font-size: 36px;
+}
+.scan img{
+   height:auto;
+}
+.sct{
+     width:7.333333rem;
+     margin:0.733333rem auto;
+}
+.QR{
+    width:3.666667rem;
+}
+.link a{
+    font-size: 15px;
+    line-height: 0.626667rem;
+    color:#66c1ff;
+    text-decoration:underline ;
+    margin:0.666667rem auto;
+}
+[data-dpr="2"] .link a{
+    font-size: 30px;
+}
+[data-dpr="3"] .link a{
+    font-size: 45px;
+}
+.sponsor{
+    font-size: 18px;
+    line-height:1.5;
+    margin-bottom: 0.266667rem;
+}
+[data-dpr="2"] .sponsor{
+    font-size: 36px;
+}
+[data-dpr="3"] .sponsor{
+    font-size: 54px;
+}
+/*首页*/
+.top{
+    width:100%;
+    height:6.613333rem;
+    background-image: url(../images/top_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hRule{
+    line-height: 0.64rem;
+}
+.hRule h2{
+    font-size: 16px;
+    margin-bottom: 0.133333rem;
+}
+[data-dpr="2"] .hRule h2{
+    font-size: 32px;
+}
+[data-dpr="3"] .hRule h2{
+    font-size: 48px;
+}
+.hRule p{
+    font-size: 10px;
+}
+[data-dpr="2"] .hRule p{
+    font-size: 20px;
+}
+[data-dpr="3"] .hRule p{
+    font-size: 30px;
+}
+.cpShow{
+    padding-bottom: 1.533333rem;
+}
+.search{
+   padding:0.466667rem 0 0.533333rem;
+   margin:0 0.4rem;
+}
+.searchBox{
+    height:0.746667rem;
+    border-radius: 5px;
+    vertical-align: bottom;
+    font-size: 12px;
+    line-height: 0.746667rem;
+}
+[data-dpr="2"] .searchBox{
+    border-radius: 10px;
+    font-size: 24px;
+}
+[data-dpr="3"] .searchBox{
+    border-radius: 15px;
+    font-size: 36px;
+}
+.search h2{
+    width:3.013333rem;
+    border:2px solid #fff;
+    position: relative;
+}
+.search h2 span{
+    position: absolute;
+    width: 100%;
+    top:50%;
+    left:0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); 
+}
+[data-dpr="2"] .search h2{
+    border-width: 4px;
+}
+[data-dpr="3"] .search h2{
+    border-width: 6px;
+}
+.search input{
+    background-color: #fff;
+    width:3.64rem;
+    margin-right: 0.133333rem;
+}
+.search button{
+    background-color: #ea6a96;
+    width:1.706667rem;
+    color:#fff;
+}
+.cpList{
+    padding-bottom: 0.4rem;
+}
+.player{
+    width:9.6rem;
+    height:6.2rem;
+    position: relative;
+    margin:0 auto 0.533333rem;
+    padding:0.133333rem 0.106667rem 0.08rem 0.293333rem;
+}
+.player img{
+    width:100%;
+    height:100%;
+    border:0.12rem solid #fff;
+}
+.pframe{
+    width:100%;
+    height:100%;
+    background-image: url(../images/frame_08.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.ptop{
+    font-size: 17px;
+    line-height: 1;
+    position: absolute;
+    top:0.64rem;
+}
+[data-dpr="2"] .ptop{
+    font-size: 34px;
+}
+[data-dpr="3"] .ptop{
+    font-size: 51px;
+}
+.ptop span:last-child{
+    color:#570622;
+    margin-left: 0.266667rem;
+}
+.pbottom{
+    font-size: 15px;
+    line-height: 0.44rem;
+    position: absolute;
+    bottom:0.133333rem;
+    right:1.16rem;
+}
+[data-dpr="2"] .pbottom{
+    font-size: 30px;
+}
+[data-dpr="3"] .pbottom{
+    font-size: 45px;
+}
+.allCp{
+    width:4.0rem;
+    padding:0.24rem 0;
+    font-size: 18px;
+    line-height: 1;
+    color:#fff;
+    background-color: inherit;
+    border:2px solid;
+    border-radius: 5px;
+}
+[data-dpr="2"] .allCp{
+    border-width: 4px;
+    border-radius: 10px;
+    font-size: 36px;
+}
+[data-dpr="3"] .allCp{
+    border-width: 6px;
+    border-radius: 15px;
+    font-size: 54px;
+}
+.hsct{
+    width:7.293333rem;
+    height:1.706667rem;
+    margin-bottom: 0.76rem;
+}
+.hQR{
+    width:8.16rem;
+    height:6.186667rem;
+}
